@@ -1,0 +1,41 @@
+h1{
+    color: rgb(0, 192, 48);
+    font-size: 100px;
+    border: 10px solid rgb(209, 75, 153);
+
+}
+
+h2, h3{
+    color: rgb(155, 21, 160);
+    font-size: 30px;
+}
+
+p {
+    color: rgb(212, 0, 255);
+    border: 1px solid blueviolet;
+    font-size: 25px;
+}
+
+ul li{
+    color: chocolate;
+    margin: 20px;
+    background-color: bisque;
+    font-size: 25px;
+    list-style-type: url('c:\Users\Lenovo\Downloads\download (7).jfif');
+    border: 3px dotted palevioletred;
+}
+
+ol li{
+    color: rgb(170, 170, 170);
+    margin: 20px;
+    background-color: rgb(2, 71, 45);
+    list-style-type: square;
+    border: 3px dashed slategray;
+    font-size: 25px;
+}
+tr:nth-child(even){
+    background-color: #f2f2;
+}
+td,th{
+    padding: 10px solid blue;
+}
